@@ -1,0 +1,9 @@
+$ORIGIN noorcompany.random.
+$TTL 3600
+@   IN SOA ns1.noorcompany.random. admin.noor.iq. (1 3600 1800 604800 86400)
+    IN NS  ns1.noorcompany.random.
+    IN NS  ns2.noorcompany.random.
+ns1 IN A   1.1.1.74
+ns2 IN A   2.12.25.36
+www IN A   45.45.26.68
+

@@ -1,0 +1,9 @@
+; Written by PowerDNS, don't edit!
+; Zone 'noorcompany.random' retrieved from master 
+; at 2025-06-07 08:36:31 +0000
+@	3600	SOA	ns1.noorcompany.random. admin.noor.iq. 1 3600 1800 604800 86400
+@	3600	NS	ns1
+@	3600	NS	ns2
+ns1	3600	A	1.1.1.74
+ns2	3600	A	2.12.25.36
+www	3600	A	45.45.26.68

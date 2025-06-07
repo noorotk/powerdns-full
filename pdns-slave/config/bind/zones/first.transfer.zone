@@ -1,0 +1,12 @@
+; Written by PowerDNS, don't edit!
+; Zone 'first.transfer' retrieved from master 
+; at 2025-06-07 08:36:31 +0000
+@	86400	SOA	ns1.first.transfer. admin.first.transfer. 1 3600 1800 1209600 86400
+@	86400	NS	ns1
+@	86400	A	82.15.28.15
+@	86400	MX	10 mail
+@	86400	TXT	"ADD YOUR TOKEN HERE"
+mail	86400	A	15.12.48.25
+ns1	86400	A	12.47.5.17
+ns2	86400	A	41.35.12.58
+www	86400	A	11.24.33.77
