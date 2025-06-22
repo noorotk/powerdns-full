@@ -1,0 +1,12 @@
+; Written by PowerDNS, don't edit!
+; Zone 'noor.new' retrieved from master 
+; at 2025-06-11 05:34:11 +0000
+@	3600	SOA	ns1.noor.new. admin.noor.new. 4 1 1 1209600 86400
+@	3600	NS	ns1
+@	3600	A	82.15.28.22
+@	3600	MX	10 mail
+@	3600	TXT	"ADD YOUR TOKEN HERE"
+mail	3600	A	15.12.48.22
+ns1	3600	A	12.47.5.122
+ns2	3600	A	41.35.12.22
+www	3600	A	11.24.33.22

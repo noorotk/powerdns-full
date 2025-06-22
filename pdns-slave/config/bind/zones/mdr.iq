@@ -1,0 +1,12 @@
+; Written by PowerDNS, don't edit!
+; Zone 'mdr.iq' retrieved from master 
+; at 2025-06-12 07:28:56 +0000
+@	86400	SOA	ns1.mdr.iq. admin.mdr.iq. 1 3600 1800 1209600 86400
+@	86400	NS	ns1
+@	86400	A	44.1.1.1
+@	86400	MX	10 mail
+@	86400	TXT	"ADD YOUR TOKEN HERE"
+mail	86400	A	34.3.3.3
+ns1	86400	A	44.4.4.4
+ns2	86400	A	53.5.5.5
+www	86400	A	24.2.2.2

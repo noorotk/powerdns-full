@@ -1,0 +1,19 @@
+@       IN  SOA     ns1.noor.new. admin.noor.new. (
+                        4         ; Serial
+                        1      ; Refresh
+                        1      ; Retry
+                        1209600   ; Expire
+                        86400 )   ; Minimum TTL
+
+@       IN  NS      ns1.noor.new.
+
+@       IN  A       82.15.28.22
+ns1     IN  A       12.47.5.122
+ns2     IN  A       41.35.12.22
+www     IN  A       11.24.33.22
+mail    IN  A       15.12.48.22
+
+@       IN  MX 10   mail.noor.new.
+
+@       IN  TXT     "ADD YOUR TOKEN HERE"
+

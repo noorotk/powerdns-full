@@ -1,0 +1,13 @@
+; Written by PowerDNS, don't edit!
+; Zone 'ahmed.iq' retrieved from master 
+; at 2025-06-11 10:52:55 +0000
+@	86400	SOA	ns1.ahmed.iq. admin.ahmed.iq. 2025061101 3600 1800 1209600 86400
+@	86400	NS	ns1
+@	86400	NS	ns2
+@	86400	A	1.1.8.12
+@	86400	MX	10 mail
+@	86400	TXT	"ADD YOUR TOKEN HERE"
+mail	86400	A	3.3.2.9
+ns1	86400	A	4.4.7.46
+ns2	86400	A	5.5.6.43
+www	86400	A	2.2.4.2

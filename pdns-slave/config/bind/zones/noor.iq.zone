@@ -1,6 +1,6 @@
 ; Written by PowerDNS, don't edit!
 ; Zone 'noor.iq' retrieved from master 
-; at 2025-06-07 08:40:53 +0000
+; at 2025-06-08 13:04:09 +0000
 @	86400	SOA	ns1.noor.iq. admin.noor.iq. 1 3600 1800 1209600 86400
 @	86400	NS	ns1
 @	86400	A	1.1.1.1

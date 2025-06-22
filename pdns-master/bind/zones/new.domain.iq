@@ -1,0 +1,19 @@
+@       IN  SOA     ns1.new.domain. admin.new.domain. (
+                        4         ; Serial
+                        1      ; Refresh
+                        1      ; Retry
+                        1209600   ; Expire
+                        86400 )   ; Minimum TTL
+
+@       IN  NS      ns1.new.domain.
+
+@       IN  A       82.15.28.17
+ns1     IN  A       12.47.5.177
+ns2     IN  A       41.35.12.87
+www     IN  A       11.24.33.71
+mail    IN  A       15.12.48.27
+
+@       IN  MX 10   mail.new.domain.
+
+@       IN  TXT     "ADD YOUR TOKEN HERE"
+

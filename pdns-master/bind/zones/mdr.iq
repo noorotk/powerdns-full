@@ -1,0 +1,21 @@
+$TTL 86400
+
+@       IN  SOA     ns1.mdr.iq. admin.mdr.iq. (
+                        1         ; Serial
+                        3600      ; Refresh
+                        1800      ; Retry
+                        1209600   ; Expire
+                        86400 )   ; Minimum TTL
+
+@       IN  NS      ns1.mdr.iq.
+
+@       IN  A       44.1.1.1
+ns1     IN  A       44.4.4.4
+ns2     IN  A       53.5.5.5
+www     IN  A       24.2.2.2
+mail    IN  A       34.3.3.3
+
+@       IN  MX 10   mail.mdr.iq.
+
+@       IN  TXT     "ADD YOUR TOKEN HERE"
+
